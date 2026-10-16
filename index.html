@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#b60810" name="theme-color"/>
+<meta content="Invitación interactiva al cumpleaños número 6 de Lucas Núñez Cifuentes" name="description"/>
+<title>Lucas cumple 6 | Gran carrera</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div aria-hidden="true" class="fx" id="fx"></div>
+<!-- ====== INICIO / GARAJE ====== -->
+<section class="garage" id="garage">
+<div class="garage-door garage-door-left"></div>
+<div class="garage-door garage-door-right"></div>
+<div aria-hidden="true" class="garage-lights"></div>
+<div class="garage-panel">
+<div class="start-flag">🏁 GRAN PREMIO DE CUMPLEAÑOS 🏁</div>
+<p class="tiny-title">Piloto oficial</p>
+<h1>Lucas <span>Núñez Cifuentes</span></h1>
+<div class="garage-photo">
+<img alt="Lucas manejando un carro rojo" src="lucas.png"/>
+<div class="number-plate">6</div>
+</div>
+<p class="garage-copy">Hoy no vienes solo a una fiesta. Vienes a entrar a la pista de Lucas.</p>
+<button class="main-btn red-btn" id="startEngine">🔴 Encender motor</button>
+<p class="sound-hint">🎵 La música empieza al encender el motor</p>
+</div>
+</section>
+<!-- ====== EXPERIENCIA ====== -->
+<main aria-hidden="true" class="experience" id="experience">
+<header class="race-hud">
+<div class="hud-name">🏎️ LUCAS 6</div>
+<div class="hud-center"><span id="missionName">Misión 1</span><div class="hud-progress"><i id="hudBar"></i></div></div>
+<button aria-label="Pausar o reproducir música" class="hud-btn" id="musicBtn">⏸️</button>
+</header>
+<!-- MISION 1 -->
+
+<!-- MISION 2 -->
+
+<!-- MISION 3 -->
+
+<!-- MISION 4 -->
+
+<!-- MISION 5 -->
+
+<!-- MISION 6 -->
+
+<!-- MISION 7 -->
+
+<!-- FINAL DESBLOQUEADO -->
+
+<section class="mission active" data-index="0" data-name="Salida">
+<div class="mission-bg red-race-bg"></div>
+<div class="track-lines"></div>
+<div class="mission-content center-content">
+<span class="mission-tag">MISIÓN 1 · SALIDA</span>
+<h2>Haz que Lucas llegue a la línea de partida</h2>
+<p class="lead light">Presiona el acelerador. Cuando completes la velocidad, se desbloquea la siguiente parte.</p>
+<div class="drive-stage">
+<div class="road"></div>
+<div class="lucas-driver" id="lucasDriver">
+<img alt="Lucas conduciendo su auto rojo de carreras" src="lucas-side.png"/>
+<span>6</span>
+</div>
+<div class="finish-flag">🏁</div>
+</div>
+<div class="speed-meter"><span id="speedFill"></span></div>
+<button class="main-btn yellow-btn" id="accelerateBtn">⚡ ACELERAR</button>
+<p class="mini-text" id="accelerateHint">Toca varias veces para llenar la velocidad.</p>
+<div class="mission-nav one-button">
+<button class="nav-btn next-btn locked" disabled="" id="mission1Next">Siguiente misión →</button>
+</div>
+</div>
+</section><section class="mission" data-index="1" data-name="Equipo Lucas">
+<div class="mission-bg cream-race-bg"></div>
+<div class="mission-content">
+<span class="mission-tag">MISIÓN 2 · EQUIPO DE LUCAS</span>
+<h2 class="dark-title">Conoce al equipo de Lucas</h2>
+<div class="crew-layout">
+<div class="crew-photo-card">
+<img alt="Lucas, cumpleañero" src="lucas.png"/>
+<div class="crew-label">PILOTO #6</div>
+</div>
+<div class="crew-copy">
+<p class="tiny-title red-text">El cumpleañero</p>
+<h3>Lucas Núñez Cifuentes</h3>
+<p>Está listo para celebrar sus 6 años rodeado de personas especiales.</p>
+<div class="parents-row">
+<div><span>👨‍🔧</span><b>Jimmy Núñez</b><small>Papá · Jefe de equipo</small></div>
+<div><span>👩‍🔧</span><b>Alizon Cifuentes</b><small>Mamá · Directora de carrera</small></div>
+</div><div class="costume-alert"><span>🎭 ATENCIÓN, CORREDORES</span><strong>¡VEN CON TU MEJOR DISFRAZ!</strong><p>Prepárate para correr, jugar y celebrar junto a Lucas en una fiesta de disfraces llena de diversión y sorpresas.</p></div>
+<button class="main-btn yellow-btn photo-pop-btn">📸 Ver a Lucas al volante</button>
+</div>
+</div>
+<div class="quote-race">“La mejor carrera se disfruta con las personas que queremos cerca.”</div>
+<div class="mission-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+<button class="nav-btn next-btn">Siguiente misión →</button>
+</div>
+</div>
+</section><section class="mission" data-index="2" data-name="Pit Stop">
+<div class="mission-bg garage-bg"></div>
+<div class="mission-content">
+<span class="mission-tag yellow-text">MISIÓN 3 · PIT STOP</span>
+<h2 class="light-title">Desbloquea los datos de la fiesta</h2>
+<p class="lead light">Toca cada caja del pit stop. Cuando abras las cuatro, tendrás todos los datos principales de la fiesta.</p>
+<div class="pit-grid">
+<button class="pit-card" data-reveal="age">
+<span class="pit-icon">🎂</span>
+<small>CAJA 01</small>
+<b>?</b>
+<em>Edad</em>
+</button>
+<button class="pit-card" data-reveal="date">
+<span class="pit-icon">📅</span>
+<small>CAJA 02</small>
+<b>?</b>
+<em>Fecha</em>
+</button>
+<button class="pit-card" data-reveal="time">
+<span class="pit-icon">🕖</span>
+<small>CAJA 03</small>
+<b>?</b>
+<em>Hora</em>
+</button>
+<button class="pit-card" data-reveal="place"><span class="pit-icon">📍</span><small>CAJA 04</small><b>?</b><em>Lugar</em></button></div>
+<div class="pit-message" id="pitMessage">🔧 Desbloquea las 4 cajas.</div>
+<div class="mission-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+<button class="nav-btn next-btn locked" disabled="" id="mission2Next">Siguiente misión →</button>
+</div>
+</div>
+</section><section class="mission" data-index="3" data-name="Semáforo">
+<div class="mission-bg night-race-bg"></div>
+<div class="mission-content center-content">
+<span class="mission-tag yellow-text">MISIÓN 4 · SEMÁFORO</span>
+<h2 class="light-title">Pon el semáforo en verde</h2>
+<p class="lead light">Toca el semáforo para cambiar de rojo a amarillo y luego a verde.</p>
+<button aria-label="Cambiar semáforo" class="traffic-light" id="trafficLight">
+<i class="lamp red on"></i>
+<i class="lamp amber"></i>
+<i class="lamp green"></i>
+</button>
+<p class="traffic-text" id="trafficText">🔴 DETENTE</p>
+<div class="race-reveal hidden" id="raceReveal">
+<div class="green-race-track"><img alt="Auto de carrera" class="green-car one" src="car.svg"/><img alt="Auto de carrera" class="green-car two" src="car.svg"/><img alt="Lucas conduciendo" class="green-lucas" src="lucas-side.png"/></div>
+<h3>¡VERDE! Lucas sale a toda velocidad</h3>
+<p>Ahora sí: la fiesta está oficialmente en marcha.</p>
+</div>
+<div class="mission-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+<button class="nav-btn next-btn locked" disabled="" id="mission4Next">Siguiente misión →</button>
+</div>
+</div>
+</section><section class="mission" data-index="4" data-name="Destino">
+<div class="mission-bg map-race-bg"></div>
+<div class="mission-content">
+<span class="mission-tag yellow-text">MISIÓN 5 · DESTINO</span>
+<h2 class="light-title">Encuentra la pista del cumpleaños</h2>
+<p class="lead light">La meta está en Ica. Toca el mapa para abrir la ruta real en Google Maps.</p>
+<div class="map-console">
+<div class="map-screen">
+<div class="map-grid"></div>
+<div class="map-route"></div>
+<div class="map-pin">📍</div>
+<div class="map-car"><img alt="Lucas conduciendo hacia el cumpleaños" src="lucas-side.png"/></div>
+</div>
+<div class="map-info">
+<small>DESTINO</small>
+<h3>AH Las Colinas de La Angostura</h3>
+<p>Ica, Perú</p>
+<div class="route-invite"><strong>🚗 Súmate a la carrera</strong><p>Lucas ya va rumbo a la fiesta. Tú también estás invitado a llegar y celebrar con nosotros.</p></div>
+<a class="main-btn yellow-btn" href="https://maps.app.goo.gl/MpsrUFVK4vUcuWfx8" rel="noopener noreferrer" target="_blank">🗺️ Abrir ruta</a>
+</div>
+</div>
+<div class="mission-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+<button class="nav-btn next-btn">Siguiente misión →</button>
+</div>
+</div>
+</section><section class="mission" data-index="5" data-name="Cuenta regresiva">
+<div class="mission-bg countdown-race-bg"></div>
+<div class="mission-content center-content">
+<span class="mission-tag">MISIÓN 6 · CUENTA REGRESIVA</span>
+<h2 class="dark-title">Falta poco para la gran carrera</h2>
+<div class="countdown-grid">
+<div><b id="days">--</b><span>DÍAS</span></div>
+<div><b id="hours">--</b><span>HORAS</span></div>
+<div><b id="minutes">--</b><span>MINUTOS</span></div>
+</div>
+<div class="event-ticket">
+<span>🎟️ PASE DE CARRERA</span>
+<strong>Viernes 23 de octubre de 2026 · 7:00 p. m.</strong>
+</div><div class="costume-mini-reminder">🎭 Recuerda: ven con tu mejor disfraz</div>
+<button class="main-btn yellow-btn photo-pop-btn">🚗 Ver al piloto antes de la meta</button>
+<div class="mission-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+<button class="nav-btn next-btn">Ir a la meta →</button>
+</div>
+</div>
+</section><section class="mission" data-index="6" data-name="Meta final">
+<div class="mission-bg photo-meta-bg"></div>
+<div class="mission-content center-content">
+<span class="mission-tag yellow-text">MISIÓN 7 · META</span>
+<div class="trophy-big">🏆</div>
+<h2 class="light-title">¿Aceptas correr esta aventura con Lucas?</h2>
+<p class="lead light">Confirma tu asistencia para cruzar la meta y desbloquear el mensaje final.</p>
+<div class="final-lucas-frame">
+<img alt="Lucas llegando a la meta" src="lucas-side.png"/>
+<span>¡TE ESPERO! 🏎️</span>
+</div><div class="final-drive-strip"><div class="final-road"></div><img alt="Lucas avanzando hacia la meta" src="lucas-side.png"/><span class="mini-finish">🏁</span></div>
+<button class="main-btn yellow-btn confirm-main" id="confirmBtn">✅ Confirmar asistencia</button>
+<div class="mission-nav final-nav">
+<button class="nav-btn prev-btn">← Volver</button>
+</div>
+</div>
+</section><section class="mission" data-index="7" data-name="Ganador">
+<div class="mission-bg photo-winner-bg"></div>
+<div class="mission-content center-content">
+<div class="finish-flags">🏁 🏁 🏁</div>
+<span class="mission-tag yellow-text">META ALCANZADA</span>
+<h2 class="light-title">¡Gracias por confirmar!</h2>
+<p class="lead light">Jimmy, Alizon y Lucas están felices de saber que formarás parte de este día.</p>
+<div class="winner-card">
+<img alt="Lucas celebrando en su auto" src="lucas-side.png"/>
+<div>
+<h3>Nos vemos en la pista</h3>
+<p>Tu presencia será uno de los mejores regalos en los 6 años de Lucas.</p>
+</div>
+</div><div class="final-drive-strip winner-strip"><div class="final-road"></div><img alt="Lucas avanzando en la pista" src="lucas-side.png"/><span class="mini-finish">🏁</span></div>
+<button class="main-btn yellow-btn" id="restartBtn">↺ Jugar otra vez</button>
+</div>
+</section></main>
+<!-- FOTO POPUP -->
+<div aria-hidden="true" class="photo-modal" id="photoModal">
+<div class="photo-backdrop" id="photoBackdrop"></div>
+<div class="photo-modal-card">
+<button class="close-photo" id="closePhoto">×</button>
+<span class="mission-tag">PILOTO #6</span>
+<div class="photo-race-wrap">
+<img alt="Lucas manejando" src="lucas.png"/>
+<div class="motion-streaks"></div>
+</div>
+<h3>¡Lucas está listo para correr!</h3>
+<p>Una vuelta más, una sonrisa más y una fiesta preparada para celebrar sus 6 años.</p>
+<button class="main-btn red-btn" id="photoOk">Seguir jugando →</button>
+</div>
+</div>
+<audio id="bgAudio" loop="" preload="auto" src="fondo.mp3"></audio>
+<audio id="finalAudio" preload="auto" src="final.mp3"></audio>
+<audio id="kachowAudio" preload="auto" src="kachow.mp3"></audio><script src="script.js"></script>
+</body>
+</html>

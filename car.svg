@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Auto de carreras rojo">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#a40b11"/><stop offset="0.55" stop-color="#ed1c24"/><stop offset="1" stop-color="#8c080e"/></linearGradient>
+    <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#83d8ff"/><stop offset="1" stop-color="#dff8ff"/></linearGradient>
+  </defs>
+  <g transform="translate(34 35)">
+    <path d="M95 195c28-55 88-90 184-99l86-66h188l104 75c54 8 94 33 126 75l38 7v66H73v-44z" fill="url(#body)" stroke="#60060a" stroke-width="9"/>
+    <path d="M358 96l57-51h116l71 54z" fill="url(#glass)" stroke="#5f1114" stroke-width="8"/>
+    <path d="M337 101l-44 3 58-58h45z" fill="#9ee1ff" stroke="#5f1114" stroke-width="8"/>
+    <path d="M649 127h72l35 30-126 1z" fill="#ffd21a" opacity=".95"/>
+    <path d="M169 210h445" stroke="#ffd21a" stroke-width="14" stroke-linecap="round"/>
+    <path d="M498 137l-30 51h46l-19 54 77-86h-48l22-39z" fill="#ffd21a" stroke="#5f1114" stroke-width="6"/>
+    <circle cx="223" cy="259" r="66" fill="#191919" stroke="#050505" stroke-width="10"/><circle cx="223" cy="259" r="30" fill="#c7c7c7"/><circle cx="666" cy="259" r="66" fill="#191919" stroke="#050505" stroke-width="10"/><circle cx="666" cy="259" r="30" fill="#c7c7c7"/>
+    <circle cx="223" cy="259" r="9" fill="#4a4a4a"/><circle cx="666" cy="259" r="9" fill="#4a4a4a"/>
+    <path d="M73 203h80l-17 36H73z" fill="#ffe66d"/><path d="M755 188h78v39h-54z" fill="#ffef7d"/>
+    <text x="578" y="206" font-family="Arial Black,Arial" font-size="70" fill="#fff" stroke="#7a050a" stroke-width="4">6</text>
+  </g>
+</svg>
